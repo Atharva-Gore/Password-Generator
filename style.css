@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #eef6fb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  width: 300px;
+  text-align: center;
+}
+
+input[type="range"] {
+  width: 100%;
+}
+
+.options {
+  text-align: left;
+  margin: 15px 0;
+}
+
+input[type="text"] {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+}
